@@ -5,29 +5,29 @@
         <meta charset="UTF-8">
         <meta name="viewport"content="width=device-width, initial-scale=1.0">
         <title>Resume</title>
+        <link rel="stylesheet" href="../css/main.css">
         <style>
-            header {
-                background-color: black;
-                color: rgb(0, 0, 0);
-                padding: 20px;
-                text-align: center;
-            }
-            
-            nav {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                margin-top: 20px;
-            }
-            
             nav ul {
-                display: flex;
-                flex-wrap: wrap;
-                list-style: none;
-                margin: 0;
-                padding: 0;
+			flex-wrap: wrap;
+			list-style: square;
+			margin: 0;
+            padding: 10;
+		             }
+            a {
+            color: red;
+                        }
+            a:hover {
+            color: orange;
+                     }
+            h3 {
+                Font-size:130% ;
+                color: dark gray
+            }         
+            h2{
+                font-size:180% ;
+                color: medium gray 
             }
-            </style> 
+                </style> 
     </head>
     <body>
         <nav>
@@ -43,21 +43,17 @@
         <section id="contactinfo">
             <h2>Contact Info</h2>
             <img src="images/profilepic.jpeg" alt="profile picture">
-            <ul>
                 <li>Phone: 303-909-0584</li>
-                <li>Email: masli11@comcast.net </li>
+                <p><li>Email: masli11@comcast.net </li></p>
                 <li>Linkedin: <a href="www.linkedin.com/in/masli-leal">www.linkedin.com/in/masli-leal</a></li>
-            </ul>
             
         </section>
         <section id="education">
             <h2>Education</h2>
-            <ul>
-                <li>
-                    <h3>The University of Northern Colorado <span class="date">(May 2023)</span></h3>
-                    <ul>
-                        <li>Major: Business Finance</li>
-                    </ul>
+            <article>
+                <h3>The University of Northern Colorado</h3>
+                <p>Bachelors in Business Finance</p>
+                <p>May 2023</p>
                 </li>
             </ul>
         </section>
